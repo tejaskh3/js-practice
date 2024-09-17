@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 15px;
+    box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);    
+}
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.counter-sum{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.counter-buttons{
+    display: flex;
+    gap: 10px;
+}
+.counter-buttons button{
+    padding: 10px;
+    font-size: 1rem;
+}
+.counter-input{
+    display: flex;
+}
+.counter-input input{
+    width: 5rem;
+    padding: .15rem;
+    margin-left: 1rem;
+    font-size: 1.15rem;
+}
+.counter-input input:hover{
+    cursor: pointer;
+}
+.counter-reset{
+    padding: 2;
+    font-size: 1rem;
+}
